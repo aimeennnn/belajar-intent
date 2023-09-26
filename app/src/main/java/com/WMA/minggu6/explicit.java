@@ -65,5 +65,6 @@ public class explicit extends AppCompatActivity {
                 }
             }
         });
+        getSupportActionBar().setTitle("EXPLICIT");
     }
 }

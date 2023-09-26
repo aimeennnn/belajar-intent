@@ -38,6 +38,7 @@ public class implicit extends AppCompatActivity {
                         Intent explicitIntent = new Intent(implicit.this, explicit.class);
                         startActivity(explicitIntent);
                         break;
+
                 }
             }
 
@@ -54,6 +55,7 @@ public class implicit extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+        getSupportActionBar().setTitle("IMPLICIT");
 
     }
 }

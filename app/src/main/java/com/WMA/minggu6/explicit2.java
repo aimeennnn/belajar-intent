@@ -19,5 +19,7 @@ public class explicit2 extends AppCompatActivity {
         Bundle extras = getIntent().getExtras();
         nama = extras.getString(KEY_NAME);
         txtHello.setText("Hello, " + nama + " !");
+
+        getSupportActionBar().setTitle("EXPLICIT");
     }
 }
